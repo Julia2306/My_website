@@ -1,0 +1,68 @@
+.wrapper {
+  display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #d7dc73;
+    overflow: auto;
+}
+
+.main {
+    display:flex
+}
+
+.main_photo {
+    width: 600px;
+    object-fit: contain;
+}
+
+.main_inner{
+  padding-left: 70px;
+  color: #40754e; 
+}
+
+.main_inner-title {
+    margin-bottom: 20px;
+    font-size: 52px;
+}
+
+.main_inner-city {
+display: inline-block;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.main_inner-item {
+margin-bottom: 20px;
+font-size: 38px;
+}
+
+.main_inner-advantes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+    margin-bottom: 50px;  
+}
+
+.list_item{
+    display: block;
+   background-color: #40754e; 
+padding: 14px 50px;
+border-radius: 45px;
+color: #ffffff;
+font-weight: 500;
+font-size: 32px;
+}
+
+.connect p {
+    font-size: calc(5px + 3vw); /* 5px is first minimal base size. and 3% of viewport width */
+}
+
+p { text-indent: 25px;
+    font-size: 28px;
+    word-wrap: break-word;
+}
+
+
